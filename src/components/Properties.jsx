@@ -6,12 +6,13 @@ function Properties() {
 
     function makePropertyCard(land) {
         return (
-            <PropertyCard
-                key= {land.id}
-                title= {land.title}
-                image= {land.image}
-            />
-        );
+                <PropertyCard
+                    key= {land.id}
+                    name= {land.name}
+                    title= {land.title}
+                    image= {process.env.PUBLIC_URL + '/images/' + land.image}
+                />
+        )
     }
 
     return (
