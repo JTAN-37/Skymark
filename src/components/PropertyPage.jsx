@@ -1,4 +1,7 @@
 import React from "react";
+import { Map, Marker, TileLayer } from "react-leaflet";
+import { Icon } from 'leaflet';
+
 import Header from "./Header";
 import propertyList from "./../propertyList";
 
@@ -23,7 +26,17 @@ function PropertyPage( {match} ) {
                         <h1> {arr[0].title} </h1>
                         <hr/>
                         <p class="propertyPageText"> {arr[0].desc} </p>
+                        <hr/>
+                        <Map center={arr[0].coordinates} zoom={12}>
+                            <TileLayer
+                                attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                            />
+
+                            <Marker key={arr[0].id} position={arr[0].coordinates}/>
+                        </Map>
                     </div>
+
                 </div> 
             </div>
         </div>
