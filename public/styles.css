@@ -1,80 +1,99 @@
 body {
     background-image: url("../images/freeport.png");
-  }
+}
   
-  h1 {
-    text-align: center;
-  }
+h1 {
+  text-align: center;
+}
   
-  h4 {
-    color: #838383;
-  }
+h4 {
+  color: #838383;
+}
   
-  hr {
-    width: 30%;
-  }
+hr {
+  width: 30%;
+}
   
-  img {
-    border-radius: 20px;
-    border: 2px solid;
-  }
+img {
+  border-radius: 20px;
+  border: 2px solid;
+}
   
-  nav {
-    background-color: #112d4e;
-  }
+nav {
+  background-color: #112d4e;
+}
   
-  a {
-    color: #000;
-  }
+a {
+  color: #000;
+}
   
-  .container {
-    margin-top: 30px;
-  }
+.container {
+  padding-top: 30px;
+}
   
-  .property {
-    max-width: 100%;
-    max-height: 400px;
-  }
+.property {
+  max-width: 100%;
+  max-height: 400px;
+}
   
-  .col-lg-4 {
-    text-align: center;
-  }
+.col-lg-4 {
+  text-align: center;
+}
   
-  .descCard {
-    background-color: #fff;
-    border-radius: 20px;
-    border: 2px solid;
-    padding-top: 10px;
-    margin: auto 20px;
-  }
+.descCard {
+  background-color: #fff;
+  border-radius: 20px;
+  border: 2px solid;
+  padding-top: 10px;
+  margin: auto 20px;
+}
   
-  .col-lg-6 {
-    border-radius: 10px;
-    text-align: center;
-  }
+.col-lg-6 {
+  border-radius: 10px;
+  text-align: center;
+}
   
-  .navbar-brand {
-    font-weight: bold;
-  }
+.navbar-brand {
+  font-weight: bold;
+}
   
-  .centerCard {
-    background-color: #fff;
-    border-radius: 20px;
-    margin: 200px auto;
-    padding: 10px;
-    text-align: center;
-    border: 2px solid;
-  }
+.centerCard {
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 200px auto;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid;
+}
   
-  .row {
-    margin-top: 30px;
-  }
+.row {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
   
-  .property:hover {
-    opacity: 85%;
-  }
+.property:hover {
+  opacity: 85%;
+}
   
-  #contactInfo {
-    text-align: left;
-  }
+#contactInfo {
+  text-align: left;
+}
   
+.propertyPageImg {
+  height: 500px;
+  width: 650px;
+}
+
+.propertyPageText {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.propertiesStyle {
+  background-color: #07689f;
+}
+
+.propertyTitle {
+  color: #fff;
+  font-size: 24px;
+}

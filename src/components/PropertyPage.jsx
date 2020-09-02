@@ -12,18 +12,17 @@ function PropertyPage( {match} ) {
 
 
     return (
-        <div>
-            <div class="row">
+        <div className="propertiesStyle">
+            <div className="row">
                 <div class="col-lg-6">
-                    <img style={ {height: "500px", width: "650px"}} src= {process.env.PUBLIC_URL + '/images/' + arr[0].image}/>
+                    <img className="propertyPageImg" src= {process.env.PUBLIC_URL + '/images/' + arr[0].image}/>
                 </div>
 
                 <div class="col-lg-6">
                     <div class="descCard">
                         <h1> {arr[0].title} </h1>
                         <hr/>
-                        <p style={ {textAlign: "right", marginLeft: "10px"} }> Words </p>
-                        <p>Acres: Usage:</p>
+                        <p class="propertyPageText"> {arr[0].desc} </p>
                     </div>
                 </div> 
             </div>

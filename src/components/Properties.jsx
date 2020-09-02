@@ -16,7 +16,7 @@ function Properties() {
     }
 
     return (
-        <div className="container">
+        <div className="container propertiesStyle">
             <div className="row">
                 {propertyList.map(makePropertyCard)};
             </div>
